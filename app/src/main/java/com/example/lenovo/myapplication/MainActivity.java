@@ -12,4 +12,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d("tag","f1");
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
