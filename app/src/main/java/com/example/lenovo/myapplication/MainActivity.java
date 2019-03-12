@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("tag","222");
+        Log.d("tag","222111");
+        Log.d("tag","222111");
     }
 }
