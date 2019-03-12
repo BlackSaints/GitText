@@ -16,8 +16,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        Log.d("tag","f2");
     }
-    
+
     @Override
     protected void onResume() {
         super.onResume();
